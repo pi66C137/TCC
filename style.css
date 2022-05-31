@@ -1,0 +1,54 @@
+.Produto {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .Preco {
+    color: grey;
+    font-size: 22px;
+    background: transparent;
+  }
+  
+  .Produto button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .Produto button:hover {
+    opacity: 0.7;
+  }
+  div.navegacao{
+    align-items: center;
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    height:72px;
+  }
+  div.navegacao-logo{
+    margin: 0 20px;
+}
+div.navegacao-logo img{
+    height:64px;
+}
+div.navegacao-icones{
+    display:flex;
+    flex:1;
+    background-color: transparent;
+    gap: 20px;
+    justify-content:flex-end;
+    padding: 0 20px;
+
+
+}
+.checked {
+  color: orange;}
