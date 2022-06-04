@@ -1,11 +1,34 @@
+.Site{
+  display: flex;
+  gap: 32px;
+
+  flex-wrap: nowrap;
+  text-align: center;
+
+}
+div.catalogo{
+  display: flex;
+  flex-wrap: wrap;
+}
+.Itenscarrinho{
+  position: absolute;
+  top:0;
+  right: 0;
+  padding: 15px;
+  text-align: center;
+}
 .Produto {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 300px;
-    margin: auto;
+    margin: 20px;
     text-align: center;
     font-family: arial;
   }
   
+  .Descricao{
+    width: 100%;
+    height:100px;
+  }
   .Preco {
     color: grey;
     font-size: 22px;
