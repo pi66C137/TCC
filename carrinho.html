@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="5">
+    <link rel="stylesheet" href="./stylecar.css">
+    <title>Carrinho</title>
+
+</head>
+<body onload="VerificarCarrinho()">
+    
+    <div onload="somar()">
+        <table border>
+                <tr>
+                   <td>Foto do produto:</td>
+                   <td>Nome do produto</td>
+                   <td>Preço(R$)</td>
+                   <td>Quantidade</td>
+               </tr>
+
+                <tr>
+                  <td><img src="https://cutt.ly/DJaj9S3" alt="Camarões" height="200"></td>
+                  <td>O revolucionário produto contra a calvície (5% 60ml)</td>
+                  <td class="Preço1">99.99</td>
+                  <td class="product2">0</td>
+
+                </tr>
+
+                <tr>
+                    <td><img src="https://cutt.ly/0JgB4iN" alt="Camarões" height="200"></td>
+                    <td>O produto mais acessivel para o tratamento da calvície (100Mg)</td>
+                    <td class="Preço2">39,99</td>
+                    <td class="product3">0</td>
+                </tr>
+
+                <tr>
+                   <td><img src="https://cutt.ly/kJgVuVj" alt="Camarões" height="200"></td>
+                   <td>O produto para calvície que também é orgânico (5Mg)</td>
+                   <td class="Preço3">129,99</td>
+                    <td class="product1">0</td>
+                </tr>
+
+                <tr>
+                    <td><img src="https://cutt.ly/8JWRe5f" alt="Camarões" height="200"></td>
+                    <td>O famoso anabolizante com a qualidade que só a PImazon oferece(75Mg/Ml)</td>
+                    <td class="Preço4">189,99</td>
+                    <td class="product4">0</td>
+                </tr>
+
+                <tr>
+                    <td><img src="https://cutt.ly/MJWYxDt" alt="Camarões" height="200"></td>
+                    <td>O famoso anabolizante injetável importado para melhor qualidade</td>
+                    <td class="Preço5">59,99</td>
+                    <td class="product5">0</td>
+                </tr>
+
+                <tr>
+                    <td><img src="https://cutt.ly/YJWIdeN" alt="Camarões" height="200"></td>
+                    <td>O anabolizante mais acessível do mercado (200Mg)</td>
+                    <td class="Preço6">14,90</td>
+                    <td class="product6">0</td>
+                </tr>
+    
+        </table>
+        <p">Total:</p>
+
+        <p class="total">0</p>
+        <button onclick="somar()">Calcular total</button>
+        <button onclick="Limpar()">Limpar carrinho</button>
+        
+
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
